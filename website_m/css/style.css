@@ -52,19 +52,27 @@ body{
 	
 	
 }
+#TRAVELLING_THE_WORLD_button{
+	
+}
 
 #main-nav a:visited{
+	transition:0.6s ease;
 	color:white;
 }
 
 #main-nav a h3:hover{
+	transition:0.6s ease;
 	color:black;
 	text-align:center;
 }
 
 #main-nav h3{
-	padding-top:0px;
-	padding-left:15px;
+	position:relative;
+	border:2px white solid;
+	padding:10px;
+	left:20px;
+	top:-15px;
 	float:left	;
 }
 
@@ -89,6 +97,7 @@ body{
 }
 
 
+
 #main-nav ul li a{
 	width: 100px;
 	height:30px;
@@ -96,9 +105,15 @@ body{
 	padding-top:20px;
 	color:white;
 	display:block;
+	transition:0.6s ease;
 }
+
+
+
 #main-nav ul li a:hover{
-	background-color:blue;
+	transition:0.6s ease;
+	background-color:white;
+	color:blue;
 }
 #main-nav ul li ul li{
 	display:none;
@@ -119,11 +134,12 @@ body{
 }
 
  #selector1{
+	 border:2px black solid;
 	position:absolute;
 	top:500px;
 	left:850px;
 	width:120px;
-	height:100px;
+	height:120px;
 	background-color:#9c93a0;
 	/*opacity:.6;*/
 	appearance:none;
@@ -131,11 +147,12 @@ body{
 	
 } 
 #selector2{
+	 border:2px black solid;
 	position:absolute;
 	top:500px;
 	left:700px;
 	width:120px;
-	height:100px;
+	height:120px;
 	background-color:#9c93a0;
 	/*opacity:.6;*/
 	appearance:none;
@@ -212,6 +229,19 @@ body{
 	
 }
 
+#button_search_avialabilty:hover{
+	position:absolute;
+	top:510px;
+	left:990px;
+	width:170px;
+	height:100px;
+	background-color:black;
+	color:white;
+	/*opacity:.6;*/
+	appearance:none;
+	
+}
+
 /*second div  below*/
 .container1{
 	padding-top:10px;
@@ -239,15 +269,14 @@ body{
 	background-color:red;
 	
 }
-
-#container1_div_1:hover{
-	background-image: url(../img/index.jpg);
-	background-size: 100% 100%;
+ /*~ is used to hover on one dive and change the style of another div*/
+#container1_div_1:hover ~ #container1_div_4{
 	position:absolute;
-	top:720px;
-	left:135px;
-	width:310px;
-	height:400px;
+	transition:0.6s ease;
+	top:1120px;
+	left:140px;
+	width:300px;
+	height:225px;
 	background-color:white;
 	
 }
@@ -265,6 +294,7 @@ body{
 }
 
 #container1_div_3{
+	transition:0.6s ease;
 	background-image: url(../img/index.jpg);
 	background-size: 100% 100%;
 	position:absolute;
@@ -278,6 +308,7 @@ body{
 
 
 #container1_div_3:hover{
+	transition:0.6s ease;
 	background-image: url(../img/index.jpg);
 	background-size: 100% 100%;
 	position:absolute;
@@ -291,6 +322,7 @@ body{
 
 
 #container1_div_4{
+	transition:0.6s ease;
 	position:absolute;
 	top:1120px;
 	left:150px;
@@ -301,6 +333,7 @@ body{
 }
 
 #container1_div_5{
+	transition:0.6s ease;
 	background-image: url(../img/index.jpg);
 	background-size: 100% 100%;
 	position:absolute;
@@ -314,6 +347,7 @@ body{
 
 
 #container1_div_5:hover{
+	transition:0.6s ease;
 	background-image: url(../img/index.jpg);
 	background-size: 100% 100%;
 	position:absolute;
@@ -324,6 +358,7 @@ body{
 	background-color:white;
 	
 }
+
 
 
 #container1_div_6{
