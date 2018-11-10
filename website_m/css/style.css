@@ -226,6 +226,8 @@ body{
 	color:white;
 }
 
+
+
 #container1_div_1{
 	background-image: url(../img/index.jpg);
 	background-size: 100% 100%;
@@ -333,4 +335,65 @@ body{
 	background-color:blue;
 	
 }
+
+@keyframes sliderdivs{
+	
+	1% {
+		left:0%;
+	}
+	
+	0%{
+		left:0%;
+	}
+	20%{
+		left:0%;
+	}
+	
+	25%{
+		left:-100%;
+	}
+	
+	45%{
+		left:-100%;
+	}
+	
+	50%{
+		left:-200%;
+	}
+	70%{
+		left:-200%;
+	}
+	
+	75%{
+		left:-300%;
+	}
+	
+	95%{
+		left:-300%;
+	}
+	100%{
+		left:-300%;
+	}
+}
 		
+#container1_div_1{
+	overflow:hidden;
+	
+}
+
+
+#container1_div_1 figure img{
+	width:280px;
+	height:380px;
+	float:left;
+}
+
+#container1_div_1 figure {
+	margin:0;
+	padding:0;
+	position:relative;
+	width:400%;
+	left:0px;
+	text-align:left;
+	animation:15s sliderdivs infinite;
+}
