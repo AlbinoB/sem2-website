@@ -200,7 +200,6 @@ body{
 	
 		
 }
-		
 #button_search_avialabilty{
 	position:absolute;
 	top:515px;
@@ -212,12 +211,14 @@ body{
 	appearance:none;
 	
 }
+
+/*second div  below*/
 .container1{
 	padding-top:10px;
 	margin-top:20px;
 	margin-left:5%;
 	margin-right:5%;
-	background-image: url(C:/Users/Albino/Desktop/website/img/indexbackground.jpg);
+	background-image: url(../img/index.jpg);
 	background-size: 100% 100%;
 	width: 1180px;
 	height:660px;
@@ -225,5 +226,64 @@ body{
 	color:white;
 }
 
+#container1_div_1{
+	position:absolute;
+	top:740px;
+	left:150px;
+	width:280px;
+	height:380px;
+	background-color:red;
+	
+}
 
+#container1_div_2{
+	position:absolute;
+	top:740px;
+	left:525px;
+	width:280px;
+	height:215px;
+	background-color:blue;
+	
+}
+
+#container1_div_3{
+	position:absolute;
+	top:740px;
+	left:900px;
+	width:280px;
+	height:380px;
+	background-color:red;
+	
+}
+
+#container1_div_4{
+	position:absolute;
+	top:1120px;
+	left:150px;
+	width:280px;
+	height:215px;
+	background-color:green;
+	
+}
+
+#container1_div_5{
+	position:absolute;
+	top:955px;
+	left:525px;
+	width:280px;
+	height:380px;
+	background-color:red;
+	
+}
+
+
+#container1_div_6{
+	position:absolute;
+	top:1120px;
+	left:900px;
+	width:280px;
+	height:215px;
+	background-color:blue;
+	
+}
 		
