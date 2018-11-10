@@ -227,6 +227,8 @@ body{
 }
 
 #container1_div_1{
+	background-image: url(../img/index.jpg);
+	background-size: 100% 100%;
 	position:absolute;
 	top:740px;
 	left:150px;
@@ -236,7 +238,21 @@ body{
 	
 }
 
+#container1_div_1:hover{
+	background-image: url(../img/index.jpg);
+	background-size: 100% 100%;
+	position:absolute;
+	top:720px;
+	left:135px;
+	width:310px;
+	height:400px;
+	background-color:white;
+	
+}
+
+
 #container1_div_2{
+	
 	position:absolute;
 	top:740px;
 	left:525px;
@@ -247,6 +263,8 @@ body{
 }
 
 #container1_div_3{
+	background-image: url(../img/index.jpg);
+	background-size: 100% 100%;
 	position:absolute;
 	top:740px;
 	left:900px;
@@ -255,6 +273,20 @@ body{
 	background-color:red;
 	
 }
+
+
+#container1_div_3:hover{
+	background-image: url(../img/index.jpg);
+	background-size: 100% 100%;
+	position:absolute;
+	top:720px;
+	left:885px;
+	width:310px;
+	height:400px;
+	background-color:white;
+	
+}
+
 
 #container1_div_4{
 	position:absolute;
@@ -267,12 +299,27 @@ body{
 }
 
 #container1_div_5{
+	background-image: url(../img/index.jpg);
+	background-size: 100% 100%;
 	position:absolute;
 	top:955px;
 	left:525px;
 	width:280px;
 	height:380px;
 	background-color:red;
+	
+}
+
+
+#container1_div_5:hover{
+	background-image: url(../img/index.jpg);
+	background-size: 100% 100%;
+	position:absolute;
+	top:935px;
+	left:510px;
+	width:310px;
+	height:400px;
+	background-color:white;
 	
 }
 
