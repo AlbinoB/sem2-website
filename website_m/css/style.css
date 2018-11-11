@@ -133,26 +133,26 @@ body{
 }
 
  #selector1{
-	 border:2px black solid;
+	 border:3px white solid;
 	position:absolute;
 	top:500px;
 	left:850px;
 	width:120px;
 	height:120px;
-	background-color:#9c93a0;
+	background-color:transparent;
 	/*opacity:.6;*/
 	appearance:none;
 	
 	
 } 
 #selector2{
-	 border:2px black solid;
+	 border:3px white solid;
 	position:absolute;
 	top:500px;
 	left:700px;
 	width:120px;
 	height:120px;
-	background-color:#9c93a0;
+	background-color:transparent;
 	/*opacity:.6;*/
 	appearance:none;
 	
@@ -160,7 +160,7 @@ body{
 } 
 
 .selector1_top{
-	background-color:#9c93a0;
+	background-color:transparent;
 	text-align:center;
 	position:top;
 	color:black;
@@ -169,16 +169,17 @@ body{
 }
 .selector1_down{
 	width:120px;
-	background-color:#9c93a0;
+	background-color:transparent;
 	height:70px;
 	text-align:center;
 	position:bottom;
 }
 
+
 #selector1 select{
-	background-color:#9c93a0;
+	background-color:transparent;
 	float:right;
-	color:black;
+	color:white;
 	width:120px;
 	height:70px;
 	border:none;
@@ -189,7 +190,9 @@ body{
 	-webkit-appearance:button;
 }
 #selector1 select option{
-	background-color:green;
+	background-color:#ccd6e8;
+	opacity:0.6;
+	
 	font-size:34px;
 	border:0px;
 	
@@ -197,9 +200,10 @@ body{
 }
 
 #selector2 select{
-	background-color:#9c93a0;
+	border-color:transparent;
+	background-color:transparent;
 	float:right;
-	color:black;
+	color:white;
 	width:120px;
 	height:70px;
 	border:none;
@@ -210,31 +214,40 @@ body{
 	-webkit-appearance:button;
 }
 #selector2 select option{
-	background-color:green;
+	background-color:transparent;
 	font-size:34px;
 	border:0px;
 	
 		
 }
 #button_search_avialabilty{
+	transition:0.6s ease;
+	border-radius:25px;
+	border:2px white solid;
 	position:absolute;
 	top:515px;
 	left:1000px;
 	width:160px;
 	height:90px;
-	background-color:#9c93a0;
+	color:white;
+	font-size:11px;
+	background-color:transparent;
 	/*opacity:.6;*/
 	appearance:none;
 	
 }
 
 #button_search_avialabilty:hover{
+	transition:0.6s ease;
+	font-size:12px;
 	position:absolute;
+	border-radius:25px;
+	border:2px white solid;
 	top:510px;
 	left:990px;
-	width:170px;
+	width:180px;
 	height:100px;
-	background-color:black;
+	background-color:transparent;
 	color:white;
 	/*opacity:.6;*/
 	appearance:none;
@@ -242,13 +255,12 @@ body{
 }
 
 /*second div  below*/
-.container1{
+#container1{
 	padding-top:10px;
 	margin-top:20px;
 	margin-left:5%;
 	margin-right:5%;
-	background-image: url(../img/index.jpg);
-	background-size: 100% 100%;
+	background-color:white;
 	width: 1180px;
 	height:660px;
 	background-repeat:no-repeat;
