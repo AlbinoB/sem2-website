@@ -17,7 +17,9 @@ body{
 	color:white;
 }
 
-
+#hr_tag_top{
+	background-color:#fcf120;
+}
  #top-details a{
 	padding-right:40px;
 	padding-left:10px;
@@ -34,7 +36,8 @@ body{
 }
 .container hr{
 	margin-top:25px;
-	background-color:white;
+	border-color:#fcf120;
+	background-color:#fcf120;
 }
 
  #top-details a:hover{
@@ -67,7 +70,7 @@ body{
 
 #main-nav h3{
 	position:relative;
-	border:2px white solid;
+	border:2px #fcf120 solid;
 	padding:10px;
 	left:20px;
 	top:-15px;
@@ -110,9 +113,9 @@ body{
 
 #main-nav ul li a:hover{
 	transition:0.6s ease;
-	background-color:white;
+	background-color:#fcf120;
 	text-decoration:underline;
-	color:blue;
+	color:black;
 }
 #main-nav ul li ul li{
 	display:none;
@@ -159,14 +162,14 @@ body{
 	
 	
 	25%{
-		color:gray;
+		color:#fcf120;
 	}
 	50%{
 		color:white;
 	}
 	
 	75%{
-		color:gray;
+		color:#fcf120;
 	}
 	
 	100%{
@@ -177,7 +180,7 @@ body{
 
 
  #selector1{
-	 border:3px white solid;
+	 border:3px #fcf120 solid;
 	position:absolute;
 	top:500px;
 	left:850px;
@@ -190,7 +193,7 @@ body{
 	
 } 
 #selector2{
-	 border:3px white solid;
+	 border:3px #fcf120 solid;
 	position:absolute;
 	top:500px;
 	left:700px;
@@ -286,22 +289,23 @@ body{
 	font-size:12px;
 	position:absolute;
 	border-radius:25px;
-	border:2px white solid;
+	border:2px #fcf120 solid;
 	top:510px;
 	left:990px;
 	width:180px;
 	height:100px;
 	background-color:transparent;
-	color:white;
-	/*opacity:.6;*/
 	appearance:none;
 	
 }
+#button_search_avialabilty:hover h3{
+	color:#fcf120;
+	}
 
 /*second div  below*/
 #container1{
 	padding-top:10px;
-	margin-top:20px;
+	margin-top:0px;
 	margin-left:5%;
 	margin-right:5%;
 	background-color:white;
