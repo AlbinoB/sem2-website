@@ -9,7 +9,7 @@ body{
 	padding-top:10px;
 	margin-left:5%;
 	margin-right:5%;
-	background-image: url(../img/index.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/index.jpg);/*linear-gradient is used to give a tint effect on the background*/
 	background-size: 100% 100%;
 	width: 1180px;
 	height:660px;
@@ -52,9 +52,7 @@ body{
 	
 	
 }
-#TRAVELLING_THE_WORLD_button{
-	
-}
+
 
 #main-nav a:visited{
 	transition:0.6s ease;
@@ -113,6 +111,7 @@ body{
 #main-nav ul li a:hover{
 	transition:0.6s ease;
 	background-color:white;
+	text-decoration:underline;
 	color:blue;
 }
 #main-nav ul li ul li{
