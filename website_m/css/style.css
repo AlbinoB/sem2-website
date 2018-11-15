@@ -302,6 +302,39 @@ body{
 	color:#fcf120;
 	}
 
+	
+/*testing container2*/	
+#container2{
+	padding-top:10px;
+	margin-top:0px;
+	margin-left:5%;
+	margin-right:5%;
+	width: 1180px;
+	height:5000px;
+	background-image: url(../img/adventures.jpg);
+	background-size:100% 100%;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 /*second div  below*/
 #container1{
 	padding-top:10px;
